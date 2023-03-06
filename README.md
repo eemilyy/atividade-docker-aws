@@ -107,7 +107,7 @@ services:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
-			MYSQL_RANDOM_ROOT_PASSWORD: wordpress 
+      MYSQL_RANDOM_ROOT_PASSWORD: wordpress 
     volumes:
       - mysql:/var/lib/mysql
 
